@@ -1,0 +1,158 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+
+.productTopRight {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+}
+
+.productTopRight > .productInfoBottom {
+  padding: 20px 0px;
+}
+
+.productInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 600;
+}
+
+.productInfoBottom {
+  margin-top: 10px;
+}
+
+.productInfoItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 7px 17px 0px rgba(0, 0, 0, 0.58);
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.productFormLeft > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > div > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft > div > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.productFormLeft > select {
+  margin-bottom: 10px;
+}
+
+.productUploadImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+
+.productItem {
+  height: 25px;
+}
+
+.productButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.productButton[disabled] {
+  background-color: rgb(98, 98, 150);
+}
+
+.productInfoKey {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.productInfoValue {
+  font-size: 15px;
+  color: grey;
+}
